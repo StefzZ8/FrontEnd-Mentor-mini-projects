@@ -1,0 +1,146 @@
+* {
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 650px;
+
+}
+
+.container-section__result {
+    height: 400px;
+    width: 300px;
+    text-align: center;
+    border-radius: 20px;
+    color: #fff;
+    box-shadow: .5px 5px 5px rgba(0, 0, 0, 0.092);
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.your-result {
+    color: #c6c3c3;
+}
+
+.keeping-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 0 0 0 70px;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.score h2 {
+    font-size: 50px;
+    margin: 5px;
+}
+
+.score span {
+    color: #c6c3c3;
+}
+
+.container-section__result p {
+    width: 220px;
+    margin: -10px 0 0 40px;
+    color: #c6c3c3;
+}
+
+
+.container-section__summary {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    padding: 0 0 0 30px;
+    border-radius: 20px;
+    border-radius: 0px 25px 25px 0px;
+    background-color: #fff;
+    box-shadow: .5px .5px .5px rgba(0, 0, 0, 0.052);
+}
+
+.container-section__summary h2 {
+    color: hsl(224, 30%, 27%);
+}
+
+.color-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15px;
+    padding: 15px 10px;
+    margin: 0 30px 15px 0;
+    border-radius: 9px;
+}
+
+.color-box h4 {
+    display: flex;
+    align-items: center;
+}
+
+.color-box img {
+    margin: 5px;
+}
+
+.color-box span {
+    color: hsl(224, 30%, 27%);
+    font-weight: bold;/
+}
+
+.color-box p {
+    color: #b3b1b1;
+}
+
+.red {
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 95%);
+}
+
+.yellow {
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 95%);
+}
+
+.green {
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 95%);
+}
+
+.blue {
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(221, 100%, 96%);
+}
+
+button {
+    width: 270px;
+    padding: 13px 15px;
+    margin: 15px 0 35px;
+    border-radius: 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: hsl(224, 30%, 27%);
+}
+
+button:hover {
+    background-color: hsl(234, 65%, 32%);
+}
+
+
+
+@media (max-width: 750px) {
+    .main-container {
+        flex-direction: column;
+        height: 850px;
+    }
+
+    .container-section__summary {
+        border-radius: 0 0;
+    }
+}
