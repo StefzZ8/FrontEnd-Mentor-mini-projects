@@ -5,6 +5,7 @@ body {
     margin: 0;
     height: 80vh;
     background-color: #1f2632;
+    font-family: 'Manrope', sans-serif;
 }
 
 .container {
@@ -12,4 +13,40 @@ body {
     max-width: 500px;
     text-align: center;
     background-color: #323a49;
+    border-radius: 15px;
+    word-wrap: break-word;
+}
+
+.advice-title {
+    text-transform: uppercase;
+    color: #52ffa8;
+    letter-spacing: 5px;
+    font-size: 10px;
+    margin: 40px;
+}
+
+.quotes {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+}
+
+.dice-container {
+    position: relative;
+    padding: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.dice-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #52ffa8;
+    /* position: absolute; */
+
 }
