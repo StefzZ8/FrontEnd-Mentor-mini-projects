@@ -8,11 +8,11 @@ function fetchedQuote() {
                 const fetchQuote = `"${data.slip.advice}"`
                 const quoteID = `#${data.slip.id}`
 
-                const parahraphID = document.querySelector('.quotes');
-                parahraphID.innerHTML = fetchQuote;
+                const getQuotes = document.querySelector('.quotes');
+                getQuotes.innerHTML = fetchQuote;
 
-                const petko = document.querySelector('.id-tag');
-                petko.innerHTML = quoteID;
+                const getID = document.querySelector('.id-tag');
+                getID.innerHTML = quoteID;
 
             })
             .catch(err => {
