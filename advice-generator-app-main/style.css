@@ -51,3 +51,8 @@ body {
     left: 212px;
     top: 65px;
 }
+
+.dice-icon:hover {
+    box-shadow: 0 0 35px  #52ffa8;
+    cursor: pointer;
+}
