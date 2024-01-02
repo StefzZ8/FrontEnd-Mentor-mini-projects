@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(235, 21%, 11%);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url('./images/bg-desktop-light.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    padding: 0 100px;
+}
+
+.bg-image {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url('./images/bg-desktop-dark.jpg');
+    background-size: cover;
+    width: 100%;
+    min-width: 800px;
+    height: 400px;
+}
+
+.todo-title {
+    font-size: 40px;
+    color: #fff;
+    letter-spacing: 15px;
+    margin: -150px 0 0;
+}
+
+.add-todo {
+    display: flex;
+    justify-content: center;
+}
